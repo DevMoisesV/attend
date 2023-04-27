@@ -1,0 +1,90 @@
+:root{
+    --darkgreen: #245953;
+    --white: #f4f0f0;
+    --lightgreen :#8f9fa6;
+    --darkblue: #146C94;
+    --purewhite: #fbfbfb;
+    --green: #609966;
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fbfbfb;
+    opacity: 1;
+    background-image:  radial-gradient(#050847 0.75px, transparent 0.75px), radial-gradient(#050847 0.75px, #fbfbfb 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
+}
+
+/*container*/
+.container {
+    max-width: 600px;
+    width: auto;
+    background-color: #F4F0F0;
+    box-shadow: 10px 10px 14px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px 50px;
+    text-align: center;
+    border-radius: 25px;
+    height: auto;
+}
+.container h1{
+    margin: 20px;
+}
+.forms{
+    column-count: 2;
+}
+label {
+    font-weight: 700;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    appearance: textfield;
+}
+  
+button[type="submit"] {
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 40%;
+    font-weight: 700;
+    font-size: 1em;
+    background-color: #609966;
+}
+button[type="submit"]:hover{
+    background-color: #245953   ;
+}
+
+/*link*/
+a {
+    color: #146C94;
+    text-decoration: none;
+}
+  
+p {
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 20px;
+}
